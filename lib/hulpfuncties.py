@@ -14,7 +14,7 @@ def lees_bestand(directory, bestandsnaam) -> str:
     dat deze functie aanroept.
 
     Args:
-        directory (str): de map waarin het bestand staat. Vul hier altijd __dirname in.
+        directory (str): de map waarin het bestand staat. Vul hier altijd `os.path.dirname(__file__)` in.
         bestandsnaam (str): de naam van de file, zoals "input.txt".
 
     Returns:

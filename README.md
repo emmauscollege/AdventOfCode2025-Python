@@ -38,7 +38,8 @@ Maak een bestand genaamd `input.txt` in dezelfde map en plak hier de input van d
 1. Open het Python-bestand dat je wilt runnen.
 2. Ga naar **Uitvoeren en debuggen** in de linkerzijbalk (het icoontje met het driehoekje en het kevertje).
 3. Click op het play-symbool (naast 'Run huidig bestand'; misschien is deze tekst niet helemaal zichtbaar). 
-4. Gebruik in je code `console.log()` om variabelen of uitkomsten te printen in de debugconsole.
+4. Gebruik in je code `print()` om variabelen of uitkomsten te printen in de debugconsole. Met behulp van formatting strings
+   kun je gemakkelijk variabelen afdrukken door ze in `{ }` te zetten: `print(f"De waarde van x is: {x}")`
 5. Gaat er iets niet correct en wil je stap voor stap door je code heen? Voeg dan een 'breakpoint' toe door
    naast het regelnummer van een regel code te klikken. Er verschijnt dan een rood puntje naast het regelnummer.
    Wanneer de uitvoering bij die regel is aanbeland, pauzeert de uitvoering en kun je regel voor regel de code laten uitvoeren.
