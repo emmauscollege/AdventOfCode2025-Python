@@ -3,6 +3,8 @@ import hulpfuncties
 
 # Lees input.txt uit dezelfde map als dit bestand
 input = hulpfuncties.lees_bestand(os.path.dirname(__file__), "input.txt")
+
+# Creëer een lijst met alle afzonderlijke regels van de input
 input_regels = hulpfuncties.tekst_naar_regels(input)
 
 # positie van de draaiknop van de kluis. Start op 50
