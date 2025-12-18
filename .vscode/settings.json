@@ -1,0 +1,25 @@
+{
+    "git.useEditorAsCommitInput": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "git.rebaseWhenSync": false,
+    "git.mergeEditor": true,
+    "git.autofetch": true,
+    "git.autofetchPeriod": 60,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "files.exclude": {
+        ".*": true,
+        "package.json": true
+    },
+    "workbench.editorAssociations": {
+        "README.md": "vscode.markdown.preview.editor"
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/lib"
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "chat.disableAIFeatures": true
+}
